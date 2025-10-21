@@ -1,4 +1,4 @@
-liquor-delivery/
+LIQ/
 ├── index.html
 ├── tailwind.config.cjs
 ├── postcss.config.cjs

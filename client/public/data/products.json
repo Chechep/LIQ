@@ -1,0 +1,60 @@
+[
+    {
+      "id": 1,
+      "name": "Jack Daniel’s Old No.7",
+      "category": "Whiskey",
+      "image": "https://images.unsplash.com/photo-1600181952324-98e7cf3c0b07",
+      "price": 3500,
+      "discount": "15%",
+      "isDeal": true,
+      "isNew": false
+    },
+    {
+      "id": 2,
+      "name": "Jameson Irish Whiskey",
+      "category": "Whiskey",
+      "image": "https://images.unsplash.com/photo-1600180758890-6d49a54d0d0a",
+      "price": 3100,
+      "discount": "10%",
+      "isDeal": true,
+      "isNew": false
+    },
+    {
+      "id": 3,
+      "name": "Chivas Regal 12",
+      "category": "Whiskey",
+      "image": "https://images.unsplash.com/photo-1590080875834-6a9e38afc845",
+      "price": 4500,
+      "discount": "20%",
+      "isDeal": true,
+      "isNew": false
+    },
+    {
+      "id": 4,
+      "name": "Hennessy VSOP Privilege",
+      "category": "Cognac",
+      "image": "https://images.unsplash.com/photo-1613932453214-3d71a73d8e1b",
+      "price": 6500,
+      "isDeal": false,
+      "isNew": true
+    },
+    {
+      "id": 5,
+      "name": "Moët & Chandon Brut",
+      "category": "Champagne",
+      "image": "https://images.unsplash.com/photo-1589427073861-bf814b73f3b1",
+      "price": 8200,
+      "isDeal": false,
+      "isNew": true
+    },
+    {
+      "id": 6,
+      "name": "Don Julio Blanco Tequila",
+      "category": "Tequila",
+      "image": "https://images.unsplash.com/photo-1617083103071-2422d2b0809a",
+      "price": 7400,
+      "isDeal": false,
+      "isNew": true
+    }
+  ]
+  
