@@ -1,9 +1,16 @@
+import { useNavigate } from "react-router-dom";
 import whiskeyImg from "../assets/images/whiskey.jpg";
 import wineImg from "../assets/images/wine.jpg";
 import vodkaImg from "../assets/images/vodka.jpg";
 import rumImg from "../assets/images/rum.jpg";
 
 const Hero = () => {
+  const navigate = useNavigate();
+
+  const handleExplore = () => {
+    navigate("/shop");
+  };
+
   return (
     <section className="relative w-full min-h-screen flex flex-col items-center justify-between text-center px-6 py-12 bg-[#9C4232] dark:bg-black text-white transition-colors duration-500">
       {/* Top Text Section */}
@@ -15,8 +22,11 @@ const Hero = () => {
           Discover fine whiskeys, smooth vodkas, rich rums, and elegant wines.
           Experience refined taste and craftsmanship in every sip.
         </p>
-        <button className="bg-white text-[#9C4232] dark:bg-amber-400 dark:text-black font-semibold px-8 py-3 rounded-full hover:bg-amber-300 dark:hover:bg-white transition">
-          Explore Now
+        <button
+          onClick={handleExplore}
+          className="bg-white text-[#9C4232] dark:bg-amber-400 dark:text-black font-semibold px-8 py-3 rounded-full hover:bg-amber-300 dark:hover:bg-white transition"
+        >
+          Explore
         </button>
       </div>
 
